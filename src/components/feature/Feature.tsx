@@ -34,7 +34,7 @@ const Feature = () => {
             <li
               key={tab}
               onClick={() => setActiveTab(tab)}
-              className={`cursor-pointer px-4 py-2 font-semibold transition rounded-md shadow-md ${
+              className={`cursor-pointer px-4 py-2 font-semibold transition rounded-md shadow-md text-center ${
                 activeTab === tab
                   ? "bg-[#30BFAB] text-white"
                   : "bg-white text-gray-600 hover:text-[#30BFAB]"
