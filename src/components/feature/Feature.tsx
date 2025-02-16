@@ -45,7 +45,7 @@ const Feature = () => {
         </ul>
 
         {/* Component Display */}
-        {/* <div className="mt-6 w-full max-w-6xl">{renderContent()}</div> */}
+        <div className="mt-6 w-full max-w-6xl">{renderContent()}</div>
       </section>
     </section>
   );
