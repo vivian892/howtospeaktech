@@ -30,7 +30,7 @@ const Feature = () => {
 
       <section className="flex flex-col items-center w-full">
         {/* Tabs Navigation */}
-        <ul className="flex justify-center gap-6 px-6 py-4 w-full max-w-6xl">
+        <ul className="flex justify-center gap-6 px-6 py-2 w-full max-w-6xl">
           {["Schools", "Teachers", "Parents"].map((tab) => (
             <li
               key={tab}
@@ -47,7 +47,7 @@ const Feature = () => {
         </ul>
 
         {/* Component Display */}
-        <div className="mt-6 w-full max-w-6xl">{renderContent()}</div>
+        <div className=" w-full max-w-6xl">{renderContent()}</div>
       </section>
     </section>
   );
