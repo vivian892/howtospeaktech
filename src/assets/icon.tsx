@@ -283,3 +283,94 @@ export const StarIcon: React.FC<IconProps> = ({ width, height, className }) => {
     </svg>
   );
 };
+export const SchoolStaricon: React.FC<IconProps> = ({
+  width,
+  height,
+  className,
+}) => {
+  return (
+    <svg
+      width={width || "147"}
+      height={height || "142"}
+      className={className}
+      viewBox="0 0 147 142"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M89.9456 45.7976L83.2465 2.12695L69.6661 47.9465L19.4188 30.0386L53.6166 65.4839L3.12231 96.6067L61.3944 85.4914V138.598L87.1971 85.4914L143 106.981L99.839 65.4839L136.827 35.4727L89.9456 45.7976Z"
+        stroke="url(#paint0_linear_122_15)"
+        stroke-width="11.3568"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_122_15"
+          x1="73.0612"
+          y1="2.12695"
+          x2="73.0612"
+          y2="138.598"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#30BFAB" />
+          <stop offset="1" stop-color="#165950" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+export const SchoolLineArrow: React.FC<IconProps> = ({
+  width,
+  height,
+  className,
+}) => {
+  return (
+    <svg
+      width={width || "90"}
+      height={height || "189"}
+      className={className}
+      viewBox="0 0 90 189"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M73.8423 6.18098C73.8423 6.18098 13.8278 1.068 6.47627 45.1948C4.62109 56.3304 8.33671 65.6985 14.994 72.9814M14.994 72.9814C34.7173 94.5582 80.2611 97.832 83.2539 74.5403C86.6959 47.7525 34.189 42.2385 14.994 72.9814ZM14.994 72.9814C11.8658 77.9915 9.62234 83.9645 8.64993 90.9653C6.0413 109.746 14.1521 123.955 25.4976 133.096M25.4976 133.096C44.3325 148.271 72.082 149.479 74.5013 134.453C77.9271 113.176 38.1076 110.785 25.4976 133.096ZM25.4976 133.096C23.8375 136.033 22.649 139.398 22.0928 143.205C17.3125 175.927 59.574 183.355 59.574 183.355"
+        stroke="url(#paint0_linear_35_344)"
+        stroke-width="11.3568"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_35_344"
+          x1="44.7077"
+          y1="6"
+          x2="44.7077"
+          y2="183.355"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#30BFAB" />
+          <stop offset="1" stop-color="#165950" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+export const BulletIcon: React.FC<IconProps> = ({
+  width,
+  height,
+  className,
+}) => {
+  return (
+    <svg
+      viewBox="0 0 15 18"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      width={width || "15"}
+      height={height || "18"}
+      className={className}
+    >
+      <path
+        d="M12.2577 2.95281L11.8616 3.06631C10.9584 3.32507 10.0385 2.71288 9.9285 1.77985C9.72807 0.0800815 7.30956 -0.0489888 6.92936 1.61979L6.8122 2.13402C6.58398 3.13574 5.49065 3.67243 4.55857 3.24028L4.13392 3.0434C2.25941 2.1743 0.463345 4.37993 1.69415 6.03952L2.13427 6.63297C2.83292 7.57501 2.66174 8.90086 1.74672 9.63456L0.797029 10.3961C-0.804387 11.6801 0.492696 14.235 2.48493 13.7406C3.67356 13.4457 4.83142 14.3431 4.83142 15.5677C4.83142 17.6672 7.74686 18.1939 8.48142 16.2271L8.83085 15.2915C9.25637 14.1522 10.576 13.6335 11.6634 14.1783C13.6249 15.161 15.5474 12.7856 14.1773 11.072L13.177 9.82082C12.4893 8.9607 12.5412 7.72521 13.2986 6.92578L14.1345 6.04348C15.4466 4.65853 14.0917 2.42736 12.2577 2.95281Z"
+        fill="#30BFAB"
+      />
+    </svg>
+  );
+};
