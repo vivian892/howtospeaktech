@@ -374,3 +374,38 @@ export const BulletIcon: React.FC<IconProps> = ({
     </svg>
   );
 };
+export const TeacherIcon: React.FC<IconProps> = ({
+  width,
+  height,
+  className,
+}) => {
+  return (
+    <svg
+      viewBox="0 0 237 256"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      width={width || "237"}
+      height={height || "256"}
+      className={className}
+    >
+      <path
+        d="M138.518 10L60.1254 82.3829L138.518 41.1838L63.3066 110.608L187.371 35.721L9 183.901L228.726 47.3295L60.1254 179.804L187.371 116.07L83.984 204.614L179.873 149.758L118.068 249"
+        stroke="url(#paint0_linear_31_263)"
+        stroke-width="25.6989"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_31_263"
+          x1="118.863"
+          y1="10"
+          x2="118.863"
+          y2="249"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#20BF6B" />
+          <stop offset="1" stop-color="#DAFF72" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
