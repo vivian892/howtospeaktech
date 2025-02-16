@@ -22,11 +22,12 @@ const Feature = () => {
     <section>
       <div className="text-black text-center">
         <h2 className="text-4xl font-bold mb-6">Feature</h2>
-        <p className="text-xl leading-relaxed">
-          wTools for Schools, Teachers, and Parents—All in One Place. Designed
-          to Make Education Smarter, Smoother, and More Connected
+        <p className="text-xl leading-relaxed w-[80%] md:w-[60%] lg:w-[50%] mx-auto">
+          Tools for Schools, Teachers, and Parents—All in One Place. Designed to
+          Make Education Smarter, Smoother, and More Connected.
         </p>
       </div>
+
       <section className="flex flex-col items-center w-full">
         {/* Tabs Navigation */}
         <ul className="flex justify-center gap-6 px-6 py-4 w-full max-w-6xl">
