@@ -13,7 +13,7 @@ const HeaderTop = () => {
           </span>{" "}
           for Schools,
           <br className="hidden md:inline" />
-          Your Window to Your Child’s World
+          Your Window to Your Child’s World.
         </h1>
 
         <p className="text-gray-700 text-lg md:text-xl max-w-2xl">
